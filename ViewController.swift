@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         set {
             var valor = newValue
             if valor == -0 { valor = 0 }
+            
             display.text = String(valor)
         }
     }
